@@ -1,0 +1,160 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-color: #CDE3EB;
+  color: #3F3F2B;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #6E828A;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #849561;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+h3 {
+  color: #849561;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-left: 20px;
+}
+
+.margin-left {
+  margin-left: 20px;
+}
+
+a:hover {
+  color:#b7b7b7;
+  text-decoration: underline;
+}
+
+a {
+  color: #849561;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  width: 1200px;   /* This sets the width */
+  margin: 20px auto; /* This automatically sets left/right margins */
+  padding: 30px;
+  text-align: center;
+}
+
+.card > h2 {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+#profile-pic {
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+  padding: 10px;
+}
+
+.img-movies {
+  width: 100px;
+  height: 160px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 40px;
+  font-size: 22px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.button {
+  background: #849561;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 10px auto; /* This automatically sets left/right margins */
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.table-head {
+  margin: 50px auto;
+  font-size: 22px;
+  color: #849561;
+}
+
+p {
+  text-align: left;
+  color: #3F3F2B;
+}
+
+.left {
+  text-align: left;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
+
+.banner {
+  color: white;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.banner-content {
+  text-align: center;
+  padding: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.banner-content h1{
+  color: white;
+}
+
+
+.banner-content h2{
+  color: white;
+}
+
+.sapiens {
+  padding-top: 50px;
+}
